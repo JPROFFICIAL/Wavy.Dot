@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32227CC1E66063C003B2EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32227CB1E66063C003B2EC5 /* AppDelegate.swift */; };
+		D32227CE1E66063C003B2EC5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32227CD1E66063C003B2EC5 /* FirstViewController.swift */; };
+		D32227D01E66063C003B2EC5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32227CF1E66063C003B2EC5 /* SecondViewController.swift */; };
+		D32227D31E66063C003B2EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32227D11E66063C003B2EC5 /* Main.storyboard */; };
+		D32227D51E66063C003B2EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32227D41E66063C003B2EC5 /* Assets.xcassets */; };
+		D32227D81E66063C003B2EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32227D61E66063C003B2EC5 /* LaunchScreen.storyboard */; };
+		D32227E31E66063C003B2EC5 /* Wavy_dotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32227E21E66063C003B2EC5 /* Wavy_dotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32227DF1E66063C003B2EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32227C01E66063C003B2EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32227C71E66063C003B2EC5;
+			remoteInfo = Wavy.dot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32227C81E66063C003B2EC5 /* Wavy.dot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wavy.dot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32227CB1E66063C003B2EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32227CD1E66063C003B2EC5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D32227CF1E66063C003B2EC5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D32227D21E66063C003B2EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32227D41E66063C003B2EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32227D71E66063C003B2EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32227D91E66063C003B2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32227DE1E66063C003B2EC5 /* Wavy.dotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wavy.dotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32227E21E66063C003B2EC5 /* Wavy_dotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wavy_dotUITests.swift; sourceTree = "<group>"; };
+		D32227E41E66063C003B2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32227C51E66063C003B2EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32227DB1E66063C003B2EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32227BF1E66063C003B2EC5 = {
+			isa = PBXGroup;
+			children = (
+				D32227CA1E66063C003B2EC5 /* Wavy.dot */,
+				D32227E11E66063C003B2EC5 /* Wavy.dotUITests */,
+				D32227C91E66063C003B2EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32227C91E66063C003B2EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32227C81E66063C003B2EC5 /* Wavy.dot.app */,
+				D32227DE1E66063C003B2EC5 /* Wavy.dotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32227CA1E66063C003B2EC5 /* Wavy.dot */ = {
+			isa = PBXGroup;
+			children = (
+				D32227CB1E66063C003B2EC5 /* AppDelegate.swift */,
+				D32227CD1E66063C003B2EC5 /* FirstViewController.swift */,
+				D32227CF1E66063C003B2EC5 /* SecondViewController.swift */,
+				D32227D11E66063C003B2EC5 /* Main.storyboard */,
+				D32227D41E66063C003B2EC5 /* Assets.xcassets */,
+				D32227D61E66063C003B2EC5 /* LaunchScreen.storyboard */,
+				D32227D91E66063C003B2EC5 /* Info.plist */,
+			);
+			path = Wavy.dot;
+			sourceTree = "<group>";
+		};
+		D32227E11E66063C003B2EC5 /* Wavy.dotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32227E21E66063C003B2EC5 /* Wavy_dotUITests.swift */,
+				D32227E41E66063C003B2EC5 /* Info.plist */,
+			);
+			path = Wavy.dotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32227C71E66063C003B2EC5 /* Wavy.dot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32227E71E66063C003B2EC5 /* Build configuration list for PBXNativeTarget "Wavy.dot" */;
+			buildPhases = (
+				D32227C41E66063C003B2EC5 /* Sources */,
+				D32227C51E66063C003B2EC5 /* Frameworks */,
+				D32227C61E66063C003B2EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wavy.dot;
+			productName = Wavy.dot;
+			productReference = D32227C81E66063C003B2EC5 /* Wavy.dot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32227DD1E66063C003B2EC5 /* Wavy.dotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32227EA1E66063C003B2EC5 /* Build configuration list for PBXNativeTarget "Wavy.dotUITests" */;
+			buildPhases = (
+				D32227DA1E66063C003B2EC5 /* Sources */,
+				D32227DB1E66063C003B2EC5 /* Frameworks */,
+				D32227DC1E66063C003B2EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32227E01E66063C003B2EC5 /* PBXTargetDependency */,
+			);
+			name = Wavy.dotUITests;
+			productName = Wavy.dotUITests;
+			productReference = D32227DE1E66063C003B2EC5 /* Wavy.dotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32227C01E66063C003B2EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Wavy.dot;
+				TargetAttributes = {
+					D32227C71E66063C003B2EC5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7B68A97268;
+						ProvisioningStyle = Automatic;
+					};
+					D32227DD1E66063C003B2EC5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7B68A97268;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D32227C71E66063C003B2EC5;
+					};
+				};
+			};
+			buildConfigurationList = D32227C31E66063C003B2EC5 /* Build configuration list for PBXProject "Wavy.dot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32227BF1E66063C003B2EC5;
+			productRefGroup = D32227C91E66063C003B2EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32227C71E66063C003B2EC5 /* Wavy.dot */,
+				D32227DD1E66063C003B2EC5 /* Wavy.dotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32227C61E66063C003B2EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32227D81E66063C003B2EC5 /* LaunchScreen.storyboard in Resources */,
+				D32227D51E66063C003B2EC5 /* Assets.xcassets in Resources */,
+				D32227D31E66063C003B2EC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32227DC1E66063C003B2EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32227C41E66063C003B2EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32227D01E66063C003B2EC5 /* SecondViewController.swift in Sources */,
+				D32227CC1E66063C003B2EC5 /* AppDelegate.swift in Sources */,
+				D32227CE1E66063C003B2EC5 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32227DA1E66063C003B2EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32227E31E66063C003B2EC5 /* Wavy_dotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32227E01E66063C003B2EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32227C71E66063C003B2EC5 /* Wavy.dot */;
+			targetProxy = D32227DF1E66063C003B2EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32227D11E66063C003B2EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32227D21E66063C003B2EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32227D61E66063C003B2EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32227D71E66063C003B2EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32227E51E66063C003B2EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D32227E61E66063C003B2EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32227E81E66063C003B2EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7B68A97268;
+				INFOPLIST_FILE = Wavy.dot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wavydot.Wavy-dot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D32227E91E66063C003B2EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7B68A97268;
+				INFOPLIST_FILE = Wavy.dot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wavydot.Wavy-dot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D32227EB1E66063C003B2EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7B68A97268;
+				INFOPLIST_FILE = Wavy.dotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wavydot.Wavy-dotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wavy.dot;
+			};
+			name = Debug;
+		};
+		D32227EC1E66063C003B2EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7B68A97268;
+				INFOPLIST_FILE = Wavy.dotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wavydot.Wavy-dotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wavy.dot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32227C31E66063C003B2EC5 /* Build configuration list for PBXProject "Wavy.dot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32227E51E66063C003B2EC5 /* Debug */,
+				D32227E61E66063C003B2EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32227E71E66063C003B2EC5 /* Build configuration list for PBXNativeTarget "Wavy.dot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32227E81E66063C003B2EC5 /* Debug */,
+				D32227E91E66063C003B2EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32227EA1E66063C003B2EC5 /* Build configuration list for PBXNativeTarget "Wavy.dotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32227EB1E66063C003B2EC5 /* Debug */,
+				D32227EC1E66063C003B2EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32227C01E66063C003B2EC5 /* Project object */;
+}
