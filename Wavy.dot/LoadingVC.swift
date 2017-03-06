@@ -9,21 +9,21 @@
 import Foundation
 import FirebaseAuth
 
-class LoadingVC: UIViewController {
+class LoadingVC: UIViewController, LoadingMethods {
     
-    let model = LoadingModel()
+    var model = LoadingModel()
     
     // MARK: System Methods
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         configureLogin()
     }
     
     // MARK: Configuration Methods
     
-    fileprivate func configureLogin() {
+    func configureLogin() {
         
         guard model.hasLoginDefault() == true else {
             performSegue(withIdentifier: "goToLogin", sender: nil)
@@ -33,4 +33,11 @@ class LoadingVC: UIViewController {
         performSegue(withIdentifier: "goToApp", sender: nil)
     }
     
+}
+
+// MARK: LoadingMethods Protocol
+
+protocol LoadingMethods {
+    var model: LoadingModel { get set }
+    func configureLogin()
 }

@@ -23,6 +23,8 @@
 		D3DB2BDA1E6DD75E00C94786 /* LoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB2BD91E6DD75E00C94786 /* LoadingModel.swift */; };
 		D3DB2BDF1E6DDC5A00C94786 /* LinkAccountsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB2BDE1E6DDC5A00C94786 /* LinkAccountsVC.swift */; };
 		D3DB2BE11E6DDC6500C94786 /* LinkAccountsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB2BE01E6DDC6500C94786 /* LinkAccountsModel.swift */; };
+		D3DB2BE61E6DDE2F00C94786 /* ConnectStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB2BE51E6DDE2F00C94786 /* ConnectStoryboard.storyboard */; };
+		D3DB2BE81E6DE4A300C94786 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB2BE71E6DE4A300C94786 /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		D3DB2BD91E6DD75E00C94786 /* LoadingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingModel.swift; sourceTree = "<group>"; };
 		D3DB2BDE1E6DDC5A00C94786 /* LinkAccountsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkAccountsVC.swift; sourceTree = "<group>"; };
 		D3DB2BE01E6DDC6500C94786 /* LinkAccountsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkAccountsModel.swift; sourceTree = "<group>"; };
+		D3DB2BE51E6DDE2F00C94786 /* ConnectStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConnectStoryboard.storyboard; sourceTree = "<group>"; };
+		D3DB2BE71E6DE4A300C94786 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				D32227CB1E66063C003B2EC5 /* AppDelegate.swift */,
-				D3DB2BDB1E6DD76B00C94786 /* 1 - Loading */,
-				D3DB2BD11E674F4500C94786 /* 2 - Login */,
-				D3DB2BE21E6DDC6C00C94786 /* 3 - Link Accounts */,
+				D3DB2BDB1E6DD76B00C94786 /* Loading */,
+				D3DB2BD11E674F4500C94786 /* Login */,
+				D3DB2BE21E6DDC6C00C94786 /* Link Accounts */,
+				D3DB2BE91E6DF0D300C94786 /* Helper Classes */,
 				D32227D11E66063C003B2EC5 /* Main.storyboard */,
 				D32227D41E66063C003B2EC5 /* Assets.xcassets */,
 				D32227D61E66063C003B2EC5 /* LaunchScreen.storyboard */,
@@ -149,14 +154,14 @@
 			path = Wavy.dotUITests;
 			sourceTree = "<group>";
 		};
-		D3DB2BD11E674F4500C94786 /* 2 - Login */ = {
+		D3DB2BD11E674F4500C94786 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				D3DB2BD41E674F5800C94786 /* Controller */,
 				D3DB2BD21E674F4A00C94786 /* View */,
 				D3DB2BD31E674F5100C94786 /* Model */,
 			);
-			name = "2 - Login";
+			name = Login;
 			sourceTree = "<group>";
 		};
 		D3DB2BD21E674F4A00C94786 /* View */ = {
@@ -182,13 +187,13 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		D3DB2BDB1E6DD76B00C94786 /* 1 - Loading */ = {
+		D3DB2BDB1E6DD76B00C94786 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
 				D3DB2BDC1E6DDC2100C94786 /* Controller */,
 				D3DB2BDD1E6DDC2B00C94786 /* Model */,
 			);
-			name = "1 - Loading";
+			name = Loading;
 			sourceTree = "<group>";
 		};
 		D3DB2BDC1E6DDC2100C94786 /* Controller */ = {
@@ -207,13 +212,14 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		D3DB2BE21E6DDC6C00C94786 /* 3 - Link Accounts */ = {
+		D3DB2BE21E6DDC6C00C94786 /* Link Accounts */ = {
 			isa = PBXGroup;
 			children = (
+				D3DB2BE51E6DDE2F00C94786 /* ConnectStoryboard.storyboard */,
 				D3DB2BE31E6DDC7200C94786 /* Controller */,
 				D3DB2BE41E6DDC7600C94786 /* Model */,
 			);
-			name = "3 - Link Accounts";
+			name = "Link Accounts";
 			sourceTree = "<group>";
 		};
 		D3DB2BE31E6DDC7200C94786 /* Controller */ = {
@@ -230,6 +236,14 @@
 				D3DB2BE01E6DDC6500C94786 /* LinkAccountsModel.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		D3DB2BE91E6DF0D300C94786 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB2BE71E6DE4A300C94786 /* ErrorHandler.swift */,
+			);
+			name = "Helper Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32227D81E66063C003B2EC5 /* LaunchScreen.storyboard in Resources */,
+				D3DB2BE61E6DDE2F00C94786 /* ConnectStoryboard.storyboard in Resources */,
 				D32227EE1E66073F003B2EC5 /* GoogleService-Info.plist in Resources */,
 				D32227D51E66063C003B2EC5 /* Assets.xcassets in Resources */,
 				D32227D31E66063C003B2EC5 /* Main.storyboard in Resources */,
@@ -394,6 +409,7 @@
 				D3DB2BD81E6DD74D00C94786 /* LoadingVC.swift in Sources */,
 				D3DB2BD61E6754AD00C94786 /* LoginModel.swift in Sources */,
 				D3DB2BDF1E6DDC5A00C94786 /* LinkAccountsVC.swift in Sources */,
+				D3DB2BE81E6DE4A300C94786 /* ErrorHandler.swift in Sources */,
 				D3DB2BE11E6DDC6500C94786 /* LinkAccountsModel.swift in Sources */,
 				D32227CE1E66063C003B2EC5 /* LoginVC.swift in Sources */,
 			);

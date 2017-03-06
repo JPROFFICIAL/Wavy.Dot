@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseAuth
 
-class LoadingModel: LoginModelMethods {
+class LoadingModel: LoadingModelMethods {
     
     func hasLoginDefault() -> Bool {
         
@@ -29,7 +29,7 @@ class LoadingModel: LoginModelMethods {
 }
 
 
-protocol LoginModelMethods {
+protocol LoadingModelMethods {
     func hasLoginDefault() -> Bool
     func createAuthObserver()
 }

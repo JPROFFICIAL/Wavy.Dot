@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bWr-dC-jjk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Link AccountsVC-->
+        <scene sceneID="sVh-Pr-NTz">
+            <objects>
+                <viewController id="pDp-Ec-bAX" customClass="LinkAccountsVC" customModule="Wavy_dot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eos-Uv-Qse"/>
+                        <viewControllerLayoutGuide type="bottom" id="2IL-a4-Moy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aNF-GA-dEa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link Music Accounts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPZ-0Z-Pqy">
+                                <rect key="frame" x="108.5" y="126" width="157.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.68235294120000001" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZPZ-0Z-Pqy" firstAttribute="centerX" secondItem="aNF-GA-dEa" secondAttribute="centerX" id="0Zz-Fr-6Jt"/>
+                            <constraint firstItem="ZPZ-0Z-Pqy" firstAttribute="top" secondItem="eos-Uv-Qse" secondAttribute="bottom" constant="62" id="YDH-59-jGe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="In1-mg-ora"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvc-6H-iTy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832.79999999999995" y="183.95802098950526"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oew-Yp-gOF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bWr-dC-jjk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mkJ-KW-VYf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pDp-Ec-bAX" kind="relationship" relationship="rootViewController" id="32W-Vw-h3V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="olW-IA-Y2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106.40000000000001" y="183.95802098950526"/>
+        </scene>
+    </scenes>
+</document>

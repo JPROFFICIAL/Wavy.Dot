@@ -8,7 +8,8 @@
 
 import Foundation
 import FirebaseAuth
-class LoginModel {
+
+class LoginModel: LoginModelMethods {
     
     // MARK: Login Functions
     func logUserIn(credential: FIRAuthCredential, done:@escaping(_ error: Error?) -> Void) {
@@ -18,4 +19,15 @@ class LoginModel {
             return done(err)
         })
     }
+    
+    func setUserDefault() {
+        UserDefaults.standard.setValue(true, forKey: "login")
+    }
+}
+
+// MARK: Login Model Protocol
+
+protocol LoginModelMethods {
+    func logUserIn(credential: FIRAuthCredential, done:@escaping(_ error: Error?) -> Void)
+    func setUserDefault()
 }
